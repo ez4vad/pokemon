@@ -1,8 +1,5 @@
-import { useEffect } from "react"
-import { apiService } from "../services/ApiService";
+import { Router } from "../router";
 
 export const App = () => {
-  useEffect(() => {
-    apiService.getPokemonList();
-  }, []);
+  return <Router />
 }

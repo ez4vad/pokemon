@@ -1,0 +1,13 @@
+.navbar-link.is-active {
+    color: hotpink;
+}
+
+.is-flex.is-center {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 24px;
+}
+.scroll-list {
+    max-height: calc(100vh - 400px);
+    overflow-y: auto;
+}
