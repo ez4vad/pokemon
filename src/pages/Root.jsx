@@ -6,7 +6,7 @@ import {  Hero } from "../components/hero";
 export const Root = () => {
   return (
     <>
-      < Hero />
+      < Hero title="PokeApi" />
       <Outlet />
     </>
   );

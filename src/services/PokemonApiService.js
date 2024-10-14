@@ -14,6 +14,11 @@ export class PokemonApiService extends BaseApiService {
     const pokemon = await this.request(`/pokemon/${name}`);
     return pokemon;
   }
+
+  async getPokemonSpecies(name) {
+    const species = await this.request(`/pokemon-species/${name}`);
+    return species;
+  }
 }
 
 export const pokemonapiService = new PokemonApiService();
