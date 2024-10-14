@@ -11,3 +11,18 @@
     max-height: calc(100vh - 400px);
     overflow-y: auto;
 }
+
+.full-height {
+    min-height: 100vh;
+}
+
+.is-absolute {
+    position: absolute;
+    top: 64px;
+    right: 64px;
+}
+
+.is-title {
+    font-weight: 700;
+    font-size: 100px;
+}
