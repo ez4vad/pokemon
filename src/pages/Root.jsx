@@ -1,4 +1,4 @@
-import {  Outlet } from "react-router-dom";
+import { Link, Outlet } from "react-router-dom";
 import {  Hero } from "../components/hero";
 
 
@@ -6,7 +6,8 @@ import {  Hero } from "../components/hero";
 export const Root = () => {
   return (
     <>
-      < Hero title="PokeApi" />
+    <img className="logo" src="2094510.png" alt=""></img>
+    <Hero title="PokeApi" />
       <Outlet />
     </>
   );
