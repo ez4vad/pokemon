@@ -24,7 +24,7 @@ export const PokemonDetails = () => {
     <button className="delete is-small"></button>
   </Link>
             <div style={{backgroundColor: species.color.name}} className="section full-height is-flex is-flex-direction-column is-justify-content-center is-align-items-center">
-                <h1 className="is-title is-uppercase has-text-black">{pokemon.name}({title})</h1>
+                <h1 className="is-title is-uppercase has-text-black dt">{pokemon.name}({title})</h1>
                     <img className="image is-square"
                      src={pokemon.sprites.other["official-artwork"].front_default}
                       alt={pokemon} />
